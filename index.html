@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Voix Active et Voix Passive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz : Voix Active et Voix Passive</h1>
+        <div id="question-container">
+            <div id="timer" style="margin-top: 1rem; font-size: 1.2rem; color: #FF5722;"></div>
+            <p id="question"></p>
+            <div id="options"></div>
+        </div>
+        <button id="next-button">Suivant</button>
+        <div id="result-container" style="display: none;">
+            <h2>Résultat</h2>
+            <p id="score"></p>
+            <button onclick="restartQuiz()">Recommencer</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
